@@ -1,0 +1,40 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "titulo": "Zeus-X-Redragon",
+      "imagem": "./img/Zeus-X-Redragon.png",
+      "precio": "$100,00"
+    },
+    {
+      "id": 2,
+      "titulo": "Mouse-Logitech-G-Pro",
+      "imagem": "./img/Mouse-Logitech-G-Pro.png",
+      "precio": "$105,00"
+    },
+    {
+      "id": 3,
+      "titulo": "Teclado-Mecanico-Kumara-RGB",
+      "imagem": "./img/Teclado-Mecanico-Kumara-RGB.png",
+      "precio": "$110,00"
+    },
+    {
+      "id": 4,
+      "titulo": "Mouse-Pad-Redragon-P003-Susakun",
+      "imagem": "./img/Mouse-Pad-Redragon-P003-Susaku.png",
+      "precio": "$50,00"
+    },
+    {
+      "titulo": "Camara-Redragon-Hitman-GW800-1080P",
+      "imagem": "./img/Camara-Redragon-Hitman-GW800-1080P.png",
+      "precio": "$50,00",
+      "id": 5
+    },
+    {
+      "titulo": "Ventilador-Cooler-CCW3000-Redragon",
+      "imagem": "./img/Ventilador-Cooler-CCW3000-Redragon.jpg",
+      "precio": "53.29",
+      "id": 6
+    }
+  ]
+}

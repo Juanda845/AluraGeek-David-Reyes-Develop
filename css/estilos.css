@@ -1,0 +1,177 @@
+*,
+*::before,
+*::after {
+    --azul-escuro: #154580;
+    --azul-medio: #3970BE;
+    --gris-claro: #5d5d5d;
+    --cinza-texto: #444444;
+    --cinza-claro: #ECECEC;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-color: var(--gris-claro);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    font-size: 14px;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* ESTILOS DEL HEADER */
+
+header {
+    height: 96px;
+    display: flex;
+    align-items: center;
+    background-color: var(--azul-escuro);
+    padding: 20px;
+}
+
+.encabezado {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.encabezado ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    justify-content: space-between; /* Added to space out the items */
+}
+
+.encabezado li {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+h1 {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+/* ESTILOS DE CARDS PRODUCTOS */
+
+main {
+    margin: 50px 30px;
+    padding: 60px 40px;
+}
+
+section {
+    padding: 40px;
+}
+
+section h1 {
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre las cards */
+    justify-content: center; /* Centrar las cards horizontalmente */
+}
+
+[data-lista] {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre las cards */
+    justify-content: center; /* Centrar las cards horizontalmente */
+}
+
+.card {
+    width: 265px;
+    height: 400px;
+    background-color: #5D04D9;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 78px;
+}
+
+.imagen-producto {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: 2px solid black;
+    border-radius: 5px
+}
+
+.card__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+.title-producto {
+    font-size: 15px;
+    font-weight: normal;
+    text-align: start;
+}
+.card__informacion {
+    display: flex;
+    gap: 20px;
+}
+
+.precio {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* ESTILOS DEL FOOTER */
+
+footer {
+    height: 232px;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--azul-escuro);
+    color: white;
+}
+
+footer .encabezado {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .logo {
+    width: 70px;
+    height: auto;
+}
+
+footer h1 {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
+
+footer p {
+    margin: 4px 0;
+}
